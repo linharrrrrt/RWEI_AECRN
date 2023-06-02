@@ -13,7 +13,7 @@ The file event2RWEI.py is the main RWEI generation method we proposed in paper 6
 2. Unzip the datasets zip file.  
 4. Install the necessary python package: opencv-python and numpy    
 ```
-pip install opencv-python,numpy
+pip install opencv-python numpy
 ```
 6. Change the root path in event2RWEI.py begin.    
 7. Run the event2RWEI.py in terminal.    
