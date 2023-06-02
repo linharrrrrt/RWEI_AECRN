@@ -36,8 +36,10 @@ for example: python train_init_ecd.py ecd_shapes_6dof ecd_shapes_6dof_init.net -
 notice: we have not depth information, so the mode only can be 0.  
 
 5. train the network at end2end phase:  
-6. python train_e2e_ecd.py <data_path> <input_network> <output_network> --mode 1  
+```
+python train_e2e_ecd.py <data_path> <input_network> <output_network> --mode 1  
 for example: python train_init_ecd.py ecd_shapes_6dof ecd_shapes_6dof_init.net --mode 1  
+```
 
 ## Publications
 Please cite the following paper if you use RWEI or parts of this code in your own work.
