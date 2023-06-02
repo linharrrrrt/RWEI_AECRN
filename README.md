@@ -16,11 +16,11 @@ The file event2RWEI.py is the main RWEI generation method we proposed in paper 6
 pip install opencv-python numpy
 ```
 6. Change the root path in event2RWEI.py begin.    
-7. Run the event2RWEI.py in terminal.    
+7. Run the event2RWEI.py in terminal.  
 ```
 python event2RWEI.py  
 ```
-8.Then, you will see the RWEI image and its corresponds camera pose in the data root path which you provided in the code.  
+8. Then, you will see the RWEI image and its corresponds camera pose in the data root path which you provided in the code.  
 
 ## For Attention based relocalization  
 Our code mainly based on [DSAC*](https://github.com/vislearn/dsacstar).  
